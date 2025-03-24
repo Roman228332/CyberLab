@@ -1,5 +1,3 @@
-# CyberLab
-Personal archive of coding projects and experiments in cybersecurity
 # CyberLab 🛡️  
 
 Welcome to my personal repository! Here, I share my coding projects, experiments, and learning materials related to **cybersecurity** and **programming**.  
