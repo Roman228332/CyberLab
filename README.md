@@ -15,53 +15,48 @@ I work with various programming language and tools, including:
 - Networking and ethical hacking basics  
 
 
-# 🔐 RSA Encryption/Decryption (Educational Implementation)
+# 🔐 RSA Encryption Tool (Python)
 
-Мини-проект для демонстрации работы алгоритма RSA на Python с поддержкой русского алфавита.
+Simple RSA implementation for educational purposes
 
-## 📌 Основные характеристики
-- Шифрование/дешифрование текста
-- Работа с кириллицей (33 строчные буквы)
-- Фиксированные параметры: p=5, q=11, e=7
-- Консольный интерфейс
+## 🌟 Features
+- Text encryption/decryption
+- Works with Russian letters
+- Fixed values: p=5, q=11, e=7
+- Easy command line interface
 
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 ```bash
-# 1. Клонировать репозиторий
-git clone https://github.com/username/repo.git
-cd repo
-
-# 2. Запустить программу
+git clone https://github.com/YOURNAME/rsa-project.git
+cd rsa-project
 python rsa.py
 ```
 
-## 🧩 Пример работы
+## 💻 Example
 ```plaintext
-> Введите слово для зашифровки: пример
-Зашифрованное слово: 1724174417
-Расшифрованное слово: пример
+> Enter text: привет
+Encrypted: 1725174417
+Decrypted: привет
 ```
 
-## 🛠 Технические детали
-| Параметр       | Значение |
-|----------------|----------|
-| Язык           | Python 3 |
-| Алгоритм       | RSA      |
-| Длина алфавита | 33 символа |
-| Модуль (n)     | 55       |
+## ⚙️ Tech Specs
+| Part           | Info        |
+|----------------|-------------|
+| Language       | Python 3    |
+| Algorithm      | RSA         |
+| Key size (n)   | 55          |
 
-## 📂 Структура проекта
+## 📂 Files
 ```
-/
-├── rsa.py       - Основной скрипт
-├── README.md    - Документация
-└── .gitignore   - Игнорируемые файлы
+rsa.py      - Main code
+README.md   - This file
+.gitignore  - Ignored files
 ```
 
-## 🌟 Возможности для улучшения
-- [ ] Добавить обработку пробелов
-- [ ] Реализовать ввод своих p/q
-- [ ] Сделать GUI-версию
+## 🔜 TODO
+- [ ] Add capital letters
+- [ ] Make better interface
+- [ ] Add English support
 
 ---
-Разработано в учебных целях | Roman Potapov | 2025
+Made for learning | Roman Potapov | 2025
