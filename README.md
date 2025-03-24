@@ -27,7 +27,7 @@ Simple RSA implementation for educational purposes
 
 ## 🚀 Quick Start
 ```bash
-git clone https://github.com/YOURNAME/rsa-project.git
+git clone https://github.com/Roman228332/CyberLab.git
 cd rsa-project
 python rsa.py
 ```
